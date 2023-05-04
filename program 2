@@ -1,0 +1,25 @@
+#PROGRAM TO CHECK PALINDROME OR NOT USING CLASS
+class Solution:
+    def palindrome(self,s):
+        if s[::-1]==temp:
+            return True
+        else:
+            return False
+s=input()
+temp=s
+a=Solution()
+if a.palindrome(s):
+    print('Yes')
+else:
+    print("no")
+    
+    output:
+    
+======================================================================= RESTART: C:/Users/S ANUPAMA/leapclass.py =======================================================================
+madam
+Yes
+
+======================================================================= RESTART: C:/Users/S ANUPAMA/leapclass.py =======================================================================
+latha
+no
+
