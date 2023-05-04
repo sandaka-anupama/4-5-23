@@ -1,0 +1,25 @@
+class Solution:
+    def fib(self,a,b,n):
+        a=1
+        b=0
+        for i in range(1,n):
+            c=a+b
+            print(c)
+            a=b
+            b=c
+n=int(input())
+a=1
+b=0
+print(b)
+f=Solution()
+f.fib(a,b,n)
+
+output:
+======================================================================= RESTART: C:/Users/S ANUPAMA/leapclass.py =======================================================================
+5
+0
+1
+1
+2
+3
+
